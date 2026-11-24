@@ -1,0 +1,7 @@
+services:
+  carlist:
+    build: .
+    container_name: carlist
+    ports:
+      - "8080:80"
+    restart: unless-stopped
