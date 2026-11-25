@@ -1,4 +1,6 @@
-# CarList
+<p align="center"><img src="public/icon-192.png" width="96" alt="Ícone do CarList"></p>
+
+<h1 align="center">CarList</h1>
 
 App pessoal para controlar **um carro**: manutenções, abastecimentos e consumo, gastos gerais e um
 plano de manutenção com alertas. É um **PWA** que funciona **offline**: os dados ficam só no seu

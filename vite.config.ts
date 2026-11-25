@@ -11,7 +11,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.ico', 'icone.png'],
       workbox: {
         // Decodificador Draco em JS puro (719 KB) só serve a navegadores sem WebAssembly.
         globIgnores: ['**/draco_decoder-*.js'],
@@ -44,7 +44,7 @@ export default defineConfig({
         description: 'Manutenções, abastecimentos e gastos do meu carro',
         lang: 'pt-BR',
         theme_color: '#0369a1',
-        background_color: '#f1f5f9',
+        background_color: '#041e3f',
         display: 'standalone',
         orientation: 'portrait',
         start_url: './',
@@ -53,7 +53,7 @@ export default defineConfig({
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
           {
-            src: 'icon-512.png',
+            src: 'icon-maskable-512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
